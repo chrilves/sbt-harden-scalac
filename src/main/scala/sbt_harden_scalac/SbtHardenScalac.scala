@@ -1,4 +1,4 @@
-package hardened
+package sbt_harden_scala
 
 import sbt.Keys._
 import sbt._

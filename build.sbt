@@ -1,10 +1,10 @@
 sbtPlugin := true
 
 //Change to your organization
-organization := "hardened_scalac"
+organization := "sbt_harden_scalac"
 
 //Change to your plugin name
-name := """hardened_scalac"""
+name := """sbt_harden_scalac"""
 
 //Change to the version
 version := "0.0.1"

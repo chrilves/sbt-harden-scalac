@@ -62,12 +62,12 @@ sbt publish-local
 Then, just add to your `project/plugins.sbt` file
 
 ```scala
-addSbtPlugin("hardened_scalac" % "hardened_scalac" % "0.0.1")
+addSbtPlugin("sbt_harden_scalac" % "sbt_harden_scalac" % "0.0.1")
 ```
 
 and to your `build.sbt` file
 
 ```scala
-hardened_scalac.HardenedScalac.harden
-hardened_scalac.HardenedScalac.optimze
+sbt_harden_scala.SbtHardenScalac.harden
+sbt_harden_scala.SbtHardenScalac.optimize
 ```
